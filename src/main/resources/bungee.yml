@@ -1,0 +1,4 @@
+name: LiveReport
+main: io.termxz.bungee.LiveBridge
+version: 1.0.0
+author: termss

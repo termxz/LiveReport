@@ -1,0 +1,5 @@
+
+@squid:S1214
+""Move constants to a class or enum.(Ò²µ³8–±ôÚ-
+Lsquid:S2386".Move "map" to a class and lower its visibility(È­«û8ªÀ²îÛ-
+\squid:S2386"9Move "playerVersions" to a class and lower its visibility(ò½šàşÿÿÿÿ8ÛÔ³îÛ-

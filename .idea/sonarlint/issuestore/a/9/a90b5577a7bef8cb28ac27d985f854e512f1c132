@@ -1,0 +1,9 @@
+
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(®‹ƒ8¦ş£æİ-
+Rsquid:S1066?"/Merge this if statement with the enclosing one.(–Ã…†ÿÿÿÿÿ8ÓÕ”ãè-
+lsquid:S4042-"IUse "java.nio.Files#delete" here for better messages on error conditions.(‚æ­şÿÿÿÿ8Ä§¥Àæ-
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(äÖÔñşÿÿÿÿ8Œ³í°Ş-
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(ä¸ó8ªü­±Ş-
+Wsquid:S1068"9Remove this unused "RESOLVED_REPORTS_PATH" private field.(ä¸ó8“”œÀæ-
+]
+squid:S899-";Do something with the "boolean" value returned by "delete".(‚æ­şÿÿÿÿ8Ä§¥Àæ-

@@ -1,0 +1,12 @@
+
+esquid:S2095I"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…8ùÅì»ğ-
+rsquid:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥ä¦àùÿÿÿÿ8ùÅì»ğ-
+Gsquid:S2629F"$Invoke method(s) only conditionally.(Ú¯ßñÿÿÿÿÿ8¼Û•…ò-
+rsquid:S2095m"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥ä¦àùÿÿÿÿ8Ìã˜½ğ-
+Hsquid:S2629¼"$Invoke method(s) only conditionally.(Ú¯ßñÿÿÿÿÿ8ÓÈ”…ò-
+rsquid:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥ä¦àùÿÿÿÿ8ùÅì»ğ-
+esquid:S2095n"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…8Ìã˜½ğ-
+=squid:S3398"Move this method into "Submit".(ßÅÖ¢8Êá‡ò-
+Vsquid:S2629Š"7Use the built-in formatting to construct this argument.(«¦Ùğ8º»º…ò-
+esquid:S2095Z"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…8ùÅì»ğ-
+fsquid:S2259%"HA "NullPointerException" could be thrown; "connection" is nullable here.(ê²ø‰8ÿÃİ‡ò-

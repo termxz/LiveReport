@@ -1,0 +1,48 @@
+name: LiveReport
+main: io.termxz.spigot.LiveReport
+version: 1.0.0
+website: https://www.spigotmc.org/resources/55896/
+author: termss
+description: Advanced Player Report Plugin
+api-version: 1.13
+load: STARTUP
+softdepend: [JDA, PlaceholderAPI]
+commands:
+  report:
+    description: "Command used to submit new player reports."
+    permission: livereport.report
+    usage: "<command>"
+  vp:
+    description: "View someones ReportProfile(if available)."
+    permission: livereport.admin
+    aliases:
+      - viewprofile
+      - rprofile
+      - reportp
+      - vprofile
+    usage: "<command>"
+  vr:
+    description: "View report data using a report ID."
+    permissions:
+      - livereport.user_view
+      - livereport.admin
+    aliases:
+      - viewreport
+      - fr
+  alerts:
+    description: "Allow administrators to turn on/off report notifications."
+    permission: livereport.admin
+    usage: '<command>'
+  lr:
+    description: "Reload all LiveReport configuration files."
+    permission: livereport.dev
+    usage: '<command>'
+  rt:
+    description: "Open ReportTracker(Observer) UI."
+    permission: livereport.admin
+    aliases:
+      - reporttracker
+      - reportracker
+      - rtracker
+      - reports
+    usage: '<command>'

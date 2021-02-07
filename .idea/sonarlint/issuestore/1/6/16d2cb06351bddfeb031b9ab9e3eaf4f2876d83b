@@ -1,0 +1,5 @@
+
+msquid:S1192^"ODefine a constant instead of duplicating this literal "CONFIG_VERSION" 3 times.(í’°8€üÊÒÙ-
+Bsquid:S2629b"$Invoke method(s) only conditionally.(ŸäöÂ8Ùú„Ú-
+usquid:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(ˆİıÿÿÿÿ8€üÊÒÙ-
+Jsquid:S1452ù"&Remove usage of generic wildcard type.(ÊıÀµùÿÿÿÿ8Ùú„Ú-

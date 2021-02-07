@@ -1,0 +1,510 @@
+## Info @ https://www.spigotmc.org/resources/55896/
+## You cannot add anymore items to sections called "DEFAULT_ITEMS"
+
+
+## Warning: You cant add anymore items to this GUI!
+TrackerUI:
+  DEFAULT_TITLE: "&8[&4&l&oReportTracker&8]"
+  DEFAULT_ITEMS:
+    REPORT_ITEM:
+      display_name: "&4Report: &7%reportID%"
+      item: "enchanted_book"
+      lore:
+        - " "
+        - "&7Offender: &c%reportOffender%"
+        - "&7Reporter: &a%reportReporter%"
+        - " "
+        - "&7Status: &e%reportStatus%"
+        - "&7Reason: &a%reportReason%"
+        - "&7Type: &e%reportType%"
+        - "&7Date: &e%reportDate%"
+        - ""
+        - " &7(Click to view Report Data)"
+    STATS_ITEM:
+      display_name: "&e&lGlobal Statistics"
+      item: "bookshelf"
+      amount: 1
+      slot: 4
+      lore:
+        - " "
+        - "&7Submitted: &a%reportsSubmitted%"
+        - " "
+        - "&7Resolved: &a%reportsResolved%"
+        - "&7Pending Review: &a%reportsPending%"
+        - "&7Declined: &a%reportsDeclined%"
+        - " "
+    EXIT_ITEM:
+      display_name: "&c&lExit"
+      item: "barrier"
+      amount: 1
+      slot: 49
+      lore: {}
+    NEXT_ITEM:
+      display_name: "&e&lNext >"
+      item: "paper"
+      amount: 1
+      slot: 51
+      lore: {}
+    BACK_ITEM:
+      display_name: "&e&l< Back"
+      item: "paper"
+      amount: 1
+      slot: 47
+      lore: {}
+## Warning: You cant add anymore items to this GUI!
+ReportDataUI:
+  DEFAULT_TITLE: "&7[&4&lReport Data&7]"
+  SIZE: 54
+  DEFAULT_ITEMS:
+    REPORT_INFO:
+      display_name: "&d&lReport Data"
+      item: "enchanted_book"
+      amount: 1
+      slot: 22
+      lore:
+        - " "
+        - "&7Reason: &a%reportReason%"
+        - "&7Type: &a%reportType%"
+        - "&7Date: &a%reportDate%"
+        - "&7ReportID: &a%reportID%"
+        - " "
+        - "&7Status: "
+        - " &d&l%reportStatus%"
+        - " "
+    OFFENDER_INFO:
+      display_name: "&4&lOffender Info"
+      item: "player_head"
+      amount: 1
+      slot: 28
+      lore:
+        - " "
+        - "&7Name: %profileName%"
+        - " "
+        - "&7Suspicion Level: &a%profileLevel%(%profileAReports%)"
+        - "&7First Logged in: &a%profileFirstLogin%"
+        - "&7Total Playtime: &a%profilePlayTime%"
+        - " "
+        - " &7(Click to view Report Profile)"
+    REPORTER_INFO:
+      display_name: "&a&lReporter Info"
+      item: "player_head"
+      amount: 1
+      slot: 34
+      lore:
+        - " "
+        - "&7Name: %profileName%"
+        - " "
+        - "&7First Logged in: &a%profileFirstLogin%"
+        - "&7Total Playtime: &a%profilePlayTime%"
+        - " "
+    ONLINE_INFO_OFFENDER:
+      display_name: "&9&lOnline Info &8(&4&lOffender&8)"
+      item: "totem_of_undying"
+      amount: 1
+      slot: 19
+      lore:
+        - " "
+        - "&7Player Locale: &a%playerLocale%"
+        - "&7OP Status: &a%playerOP%"
+        - "&7Gamemode: &a%playerGamemode%"
+        - "&7Health: &a%playerHealth% Hearts"
+        - "&7EXP Level: &a%playerEXP%"
+        - " "
+        - " &7(Click to Teleport)"
+        - " "
+    ONLINE_INFO_REPORTER:
+      display_name: "&9&lOnline Info &8(&a&lReporter&8)"
+      item: "totem_of_undying"
+      amount: 1
+      slot: 25
+      lore:
+        - " "
+        - "&7Player Locale: &a%playerLocale%"
+        - "&7OP Status: &a%playerOP%"
+        - "&7Gamemode: &a%playerGamemode%"
+        - "&7Health: &a%playerHealth% Hearts"
+        - "&7EXP Level: &a%playerEXP%"
+        - " "
+        - " &7(Click to Teleport)"
+        - " "
+    OTHER_INFO:
+      display_name: "&e&lOther Data"
+      item: "paper"
+      amount: 1
+      slot: 13
+      lore:
+        - " "
+        - "&7Server Location: &a%reportLocation%"
+        - " "
+    MARK_RESOLVED_ITEM:
+      display_name: "&a&lMark Report Status as Resolved"
+      item: "lime_stained_glass"
+      amount: 1
+      slot: 21
+      lore: {}
+    MARK_DECLINED_ITEM:
+      display_name: "&c&lMark Report Status as Declined"
+      item: "red_stained_glass"
+      amount: 1
+      slot: 23
+      lore: {}
+    DELETE_ITEM:
+      display_name: "&4&lDelete Report"
+      item: "bedrock"
+      amount: 1
+      slot: 31
+      lore: {}
+    EXIT_ITEM:
+      display_name: "&c&lExit"
+      item: "barrier"
+      amount: 1
+      slot: 49
+      lore: {}
+## Warning: You cant add anymore items to this GUI!
+ReportProfileUI:
+  DEFAULT_TITLE: "&8[&9&l&oReportProfile&8]"
+  SIZE: 54
+  DEFAULT_ITEMS:
+    ACTIVE_REPORTS_INFO:
+      display_name: "&4&lActive Reports &7(Click to Open)"
+      item: "enchanted_book"
+      amount: 1
+      slot: 15
+      lore: {}
+    ARCHIVED_REPORTS_INFO:
+      display_name: "&9&lArchived Reports &7(Click to Open)"
+      item: "book"
+      amount: 1
+      slot: 11
+      lore: {}
+    PLAYER_INFO:
+      display_name: "&d &l%profileName%"
+      item: "player_head"
+      amount: 1
+      slot: 22
+      lore:
+        - "&7UUID: &a%profileUUID%"
+        - "&7Suspicion Level: &a%profileLevel%"
+    OTHER_INFO:
+      display_name: "&e&lOther Info"
+      item: "paper"
+      amount: 1
+      slot: 34
+      lore:
+        - "&7Total Amount of Reports: &a%profileAReports%"
+        - "&7Last Logged In: &a%profileLastLogin%"
+        - "&7First Logged In: &a%profileFirstLogin%"
+        - "&7Total PlayTime: &a%profilePlayTime%"
+    DELETE_ITEM:
+      display_name: "&4&lDelete ReportProfile"
+      item: "bedrock"
+      amount: 1
+      slot: 28
+      lore:
+        - " "
+        - "         &c&l!!(WARNING)!!"
+        - "&c&lDeleting this ReportProfile"
+        - "&c&lwill also delete all existing"
+        - "&c&lreports made for/against anyone"
+        - " "
+    EXIT_ITEM:
+      display_name: "&c&lExit"
+      item: "barrier"
+      amount: 1
+      slot: 49
+      lore: {}
+## This is the only GUI where you can add as many items as you want!! (CATEGORY_HACK, CATEGORY_CHAT, CATEGORY_OTHER)
+SubmissionUI:
+  DEFAULT_TITLE: "&7[&4&lReport Categories&7]"
+  MAIN:
+    DEFAULT_ITEMS:
+      HACK:
+        display_name: "&c&lModified Client(Hacks)"
+        item: "enchanted_book"
+        slot: 10
+        amount: 1
+        lore: {}
+      CHAT:
+        display_name: "&e&lChat Abuse"
+        item: "paper"
+        slot: 13
+        amount: 1
+        lore: {}
+      OTHER:
+        display_name: "&d&lOther"
+        item: "command_block"
+        slot: 16
+        amount: 1
+        lore: {}
+  CATEGORY_HACK:
+    DEFAULT_TITLE: "&7&l[Report] &c&lHack Category"
+    SIZE: 54
+    ITEMS:
+      Killaura:
+        display_name: "&4&lKillAura"
+        item: "iron_sword"
+        slot: 10
+        amount: 1
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aShows obvious signs of"
+          - "&aabnormal head movements and"
+          - "&aattacks anyone near them."
+          - " "
+      Aimbot:
+        display_name: "&d&lAimbot"
+        item: "golden_apple"
+        slot: 11
+        amount: 2
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aAutomatically locks their aim onto you"
+          - "&aor other players."
+          - " "
+      BunnyHopping:
+        display_name: "&a&lBunnyHopping"
+        item: "firework_rocket"
+        slot: 12
+        amount: 3
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aPlayer starts hopping around"
+          - "&alike a maniac mimicking a bunny."
+          - " "
+      Criticals:
+        display_name: "&c&lCriticals"
+        item: "redstone"
+        slot: 13
+        amount: 4
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aCritical Hacks allow the player"
+          - "&ato do very small jumps rapidly so"
+          - "&athat their hits will count as criticals"
+          - " "
+      Fly:
+        display_name: "&d&lFlight"
+        item: "feather"
+        slot: 14
+        amount: 5
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aLiterally a player just flying."
+          - " "
+      Fastbow:
+        display_name: "&6&lFastBow"
+        item: "bow"
+        slot: 15
+        amount: 6
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThe player's bow shoots extremely quickly."
+          - " "
+      Speed:
+        display_name: "&b&lSpeed"
+        item: "sugar"
+        slot: 16
+        amount: 7
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aSpeedy Gonzales on the run!"
+          - " &a(Player shows abnormal running behavior)"
+          - " "
+      Antikb:
+        display_name: "&9&lAntiKB"
+        item: "lead"
+        slot: 19
+        amount: 8
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aYour hits don't apply a reasonable"
+          - "&aamount of knockback on the player"
+          - " "
+      Autoarmor:
+        display_name: "&e&lAutoArmor"
+        item: "diamond_chestplate"
+        slot: 20
+        amount: 9
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aTheir armor is automatically replaced"
+          - "&aupon breaking without opening their inventory."
+          - ""
+      AutoAdv:
+        display_name: "&5&lAutoSoup/AutoPot"
+        item: "mushroom_stew"
+        slot: 21
+        amount: 10
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThey automatically soup/pot whilst doing"
+          - "&asomething else and moving at the same time."
+          - " "
+      Jesus:
+        display_name: "&4&lJesus"
+        item: "enchanted_golden_apple"
+        slot: 22
+        amount: 11
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThe player can walk above the water for some reason."
+          - " "
+      Freecam:
+        display_name: "&d&lFreecam"
+        item: "ender_pearl"
+        slot: 23
+        amount: 12
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThey're setting off running particles without moving."
+          - " "
+      XRay:
+        display_name: "&3&lX-Ray"
+        item: "glass"
+        slot: 24
+        amount: 13
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThe player is able to see you or"
+          - "&aother relevant areas through walls."
+          - " "
+      Phase:
+        display_name: "&e&lPhase"
+        item: "ghast_tear"
+        slot: 25
+        amount: 14
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aGoing through blocks/doors that"
+          - "&awould otherwise block them."
+          - " "
+      Scaffold:
+        display_name: "&c&lScaffold"
+        item: "scaffolding"
+        slot: 28
+        amount: 15
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aBridging behavior that automatically"
+          - "&aplaces blocks beneath them whilst"
+          - "&arunning and looking up"
+          - " "
+      Reach:
+        display_name: "&6&lReach"
+        item: "diamond_sword"
+        slot: 29
+        amount: 16
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aPlayer's hits come from an unreasonable"
+          - "&aamount of distance(~3.5 blocks)"
+          - " "
+      AutoClicker:
+        display_name: "&c&lAutoClicker"
+        item: "emerald"
+        slot: 30
+        amount: 17
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aClearly shows high rates of clicking"
+          - "&athrough modified software"
+          - " "
+      LongJump:
+        display_name: "&b&lLongJump"
+        item: "ladder"
+        slot: 31
+        amount: 18
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThe player has the ability to jump"
+          - "&agreat distances through otherwise"
+          - "&aimpossible methods"
+          - " "
+  CATEGORY_CHAT:
+    DEFAULT_TITLE: "&7&l[Report] &e&lChat Category"
+    SIZE: 27
+    ITEMS:
+      Racism:
+        display_name: "&c&lRacism"
+        item: "map"
+        slot: 10
+        amount: 1
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aDiscrimination or prejudice based on race."
+          - " "
+      Spam:
+        display_name: "&9&lSpamming"
+        item: "book"
+        slot: 11
+        amount: 2
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThey repeatedly send unsolicited"
+          - "&aamounts of messages to public chat or you."
+          - " "
+      Threats:
+        display_name: "&e&lThreats"
+        item: "blaze_rod"
+        slot: 12
+        amount: 3
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aEx. Death Threats, DDoS Threats, etc"
+          - " "
+  CATEGORY_OTHER:
+    DEFAULT_TITLE: "&7&l[Report] &d&lOther Category"
+    SIZE: 27
+    ITEMS:
+      Duping:
+        display_name: "&4&lDuping"
+        item: "hopper"
+        slot: 10
+        amount: 1
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThey have the ability to duplicate items illegally."
+          - " "
+      Exploiting:
+        display_name: "&a&lExploiting"
+        item: "enchanted_book"
+        slot: 11
+        amount: 2
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThe player is abusing game mechanics"
+          - "&ato benefit themselves or others."
+          - " "
+      Griefing:
+        display_name: "&e&lGriefing"
+        item: "tnt"
+        slot: 12
+        amount: 3
+        lore:
+          - "&aDescription:"
+          - " "
+          - "&aThey're intentionally harassing other"
+          - "&aplayers to prevent them from enjoying the game."

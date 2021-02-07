@@ -1,0 +1,127 @@
+# Made by Termss
+#
+#
+#   $$\       $$\                      $$$$$$$\                                           $$\
+#  $$ |      \__|                     $$  __$$\                                          $$ |
+#  $$ |      $$\ $$\    $$\  $$$$$$\  $$ |  $$ | $$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\ $$$$$$\
+#  $$ |      $$ |\$$\  $$  |$$  __$$\ $$$$$$$  |$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\\_$$  _|
+#  $$ |      $$ | \$$\$$  / $$$$$$$$ |$$  __$$< $$$$$$$$ |$$ /  $$ |$$ /  $$ |$$ |  \__| $$ |
+#  $$ |      $$ |  \$$$  /  $$   ____|$$ |  $$ |$$   ____|$$ |  $$ |$$ |  $$ |$$ |       $$ |$$\
+#  $$$$$$$$\ $$ |   \$  /   \$$$$$$$\ $$ |  $$ |\$$$$$$$\ $$$$$$$  |\$$$$$$  |$$ |       \$$$$  |
+#  \________|\__|    \_/     \_______|\__|  \__| \_______|$$  ____/  \______/ \__|        \____/
+#                                                         $$ |
+#                                                         $$ |
+#                                                         \__|
+# v1.0.0 - 7/23/2019 -> 2021
+
+## Do not change this number under any circumstances. It will automatically change when there's a new config update.
+CONFIG_VERSION: 1.0
+
+### [Global Plugin Settings] ###
+
+## Global Prefix used in all LiveReport Messages (Leave blank if you want it disabled)
+PREFIX: "&7[&4&lLiveReport&7] "
+
+USAGE_REPORT_MESSAGE: "&cUsage: /report <player>"
+USAGE_PROFILE_MESSAGE: "&cUsage: /vp <player>"
+USAGE_VIEW_MESSAGE: "&cUsage: /vr <report-id>"
+
+NO_PERMISSION: "&cNo Permission."
+
+## Time until the player can submit a new report (In Seconds)
+REPORT_COOLDOWN_INT: 90
+
+## How often Administrators will be reminded to check the ReportTracker. (In Seconds)
+REPORT_TRACKER_REMAINDER_TIME: 600
+
+## Send remainder message automatically upon admin join.
+REPORT_TRACKER_REMAINDER_ON_JOIN: false
+
+### [Discord Settings] ###
+## Note: You can visit the resource page for a setup tutorial
+
+DISCORD_ENABLED: false
+Discord:
+  token: "token"
+  reportsChannelID: "channelID"
+  commandsChannelID: "channelID"
+  command_prefix: "$"
+
+### [MySQL Settings] ###
+
+## Leave this false if you want LiveReport to store its data locally(YML files)
+MySQL_ENABLED: false
+MySQL:
+  username: "username"
+  name: "name"
+  ip: "ip"
+  port: "port"
+  password: "password"
+
+### [BungeeCord Settings] ###
+
+## Display name used to distinguish Reports from different servers within the network.
+SERVER_NAME: "Untitled Server"
+
+### [Player Bound Messages] ###
+
+ERROR_KICK_MESSAGE: "You've been kicked because you haven't generated a ReportProfile! Please re-log"
+
+REPORT_ERROR_SELF: "&cYou can't report yourself silly!"
+REPORT_ERROR_INVALID: "&cYou can only report players that are online!"
+REPORT_ERROR_COOLDOWN: "&cYou've recently submitted a report! Please wait %time%."
+
+SUCCESSFUL_REPORT_SUBMISSION: "&aSubmitted your report against &l%reportOffender%&r&7(&cID: %reportID%&7)"
+REPORT_STATUS_CHANGE: "&aYour report&7(&c%reportID%&7) &ahas been marked as &e&l%reportStatus%"
+
+VIEW_PROFILE_ERROR_INVALID: "&cFailed to find ReportProfile."
+VIEW_REPORT_ERROR_INVALID: "&cFailed to find report data through report ID."
+
+### [Staff Bound Messages] ###
+
+## Sent when any qualified admin uses /alerts
+ALERTS_STATUS_MESSAGE: "&aYour alerts notifications have been &l%status%"
+
+## Reports can ONLY be deleted through their UI! Do not try and remove them manually
+REPORT_DELETED_MESSAGE: "&aSuccessfully deleted report data. &7(&c%reportID%&7)"
+PROFILE_DELETED_MESSAGE: "&aSuccessfully deleted ReportProfile. &7(&c%profileUUID%&7)"
+
+## Sent whenever accessing ReportProfile/Report data through UIs.
+GATHERING_REPORT_DATA: "&aGathering Report data..."
+GATHERING_PROFILE_DATA: "&aGathering ReportProfile data..."
+
+## Any administrator viewing a Tracker/Observer/Profile UI whilst there's a data operation will have to reopen their UI.
+UI_UPDATED_MESSAGE: "Your current UI has experienced a data operation, please reopen."
+
+## Remainder message for PENDING_REVIEW reports.
+REPORT_TRACKER_REMAINDER:
+  - "&8[&e&lReportTracker Remainder&8] &aThere are &l%reportsPending% &r&areports pending review."
+
+## Minecraft Staff Report Notification
+MC_REPORT_NOTIFICATION:
+  - " "
+  - "&8&m+----------&r&8[&4&lReport Notification&8]&m----------+"
+  - "   &8(&9%reportReporter% &7reported &c%reportOffender%&8)"
+  - "       &8(&7Reason: &e%reportReason%&8)"
+  - " "
+  - "     &7Information: "
+  - "   &7> Suspicion Level: &a%profileLevel%"
+  - "   &7> Amount of Reports: &a%profileAReports%"
+  - "   &7> ReportID: &a%reportID%"
+  - "&8&m+-----------------------------------------+"
+  - " "
+
+## Bungee Report Notification - LiveReport must be installed on your bungee server
+BUNGEE_REPORT_NOTIFICATION:
+  - " "
+  - "&8&m+----------&r&8[&6&lBungee Notification&8]&m----------+"
+  - "   &8(&9%reportReporter% &7reported &c%reportOffender%&8)"
+  - "       &8(&7Reason: &e%reportReason%&8)"
+  - " "
+  - "     &7Information: "
+  - "   &7> Suspicion Level: &a%profileLevel%"
+  - "   &7> Amount of Reports: &a%profileAReports%"
+  - "   &7> ReportID: &a%reportID%"
+  - "   &7> Server Location: &a%reportLocation%"
+  - "&8&m+-----------------------------------------+"
+  - " "

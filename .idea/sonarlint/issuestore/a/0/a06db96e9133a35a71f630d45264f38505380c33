@@ -1,0 +1,5 @@
+
+Nsquid:S1068"0Remove this unused "materialType" private field.(»Ìîâ8ˆ—â›Ú-
+]squid:UselessImportCheck"-Remove this unused import 'org.bukkit.Color'.(ØîË—üÿÿÿÿ8úé˜æ-
+Ssquid:S2864ì"4Iterate over the "entrySet" instead of the "keySet".(³¹ÕÂ8Ç€û¸Ü-
+^squid:CallToDeprecatedMethodP"/Remove this use of "getData"; it is deprecated.(óò¼ª8ë³é˜æ-

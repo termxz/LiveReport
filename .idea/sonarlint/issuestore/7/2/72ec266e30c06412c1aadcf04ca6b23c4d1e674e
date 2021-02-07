@@ -1,0 +1,72 @@
+
+msquid:S1192F"JDefine a constant instead of duplicating this literal "WOOD_STEP" 7 times.(Ü»Öüûÿÿÿÿ8Äóæ›Ú-
+k$squid:AssignmentInSubExpressionCheckÄ".Extract the assignment out of this expression.(¸¿¤Ûùÿÿÿÿ8Äóæ›Ú-
+}squid:S1171–"YMove the contents of this initializer to a standard constructor or to field initializers.(ÎÚ‘¦úÿÿÿÿ8Äóæ›Ú-
+tsquid:S2637Ú"UThis method's return value is marked "javax.annotation.Nonnull" but null is returned.(¥¹ï8Äóæ›Ú-
+msquid:S1192I"JDefine a constant instead of duplicating this literal "WALL_SIGN" 6 times.(â×·Àıÿÿÿÿ8Äóæ›Ú-
+k$squid:AssignmentInSubExpressionCheckµ".Extract the assignment out of this expression.(á”’ßùÿÿÿÿ8Äóæ›Ú-
+<squid:S2386‰"Make this member "protected".(ˆâİœ8Äóæ›Ú-
+osquid:S1192{"QDefine a constant instead of duplicating this literal "CONCRETE_POWDER" 16 times.(ä¢‡8Äóæ›Ú-
+usquid:S1845‘"QRename field "VALUES" to prevent any misunderstanding/clash with method "values".(„‰ö€üÿÿÿÿ8Äóæ›Ú-
+lsquid:S1192ô"NDefine a constant instead of duplicating this literal "SMOOTH_STAIRS" 3 times.(ÑÁÌ58Äóæ›Ú-
+qsquid:S1192"MDefine a constant instead of duplicating this literal "DOUBLE_PLANT" 6 times.(š—˜ùÿÿÿÿ8Äóæ›Ú-
+Asquid:S2386–"Make this member "protected".(ÎÚ‘¦úÿÿÿÿ8Äóæ›Ú-
+hsquid:S1192z"JDefine a constant instead of duplicating this literal "CONCRETE" 16 times.(û†Á8Äóæ›Ú-
+Asquid:S2386¢"Make this member "protected".(ƒ«€–ùÿÿÿÿ8Äóæ›Ú-
+vsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(İÜÙæøÿÿÿÿ8Äóæ›Ú-
+lsquid:S1192}"NDefine a constant instead of duplicating this literal "STAINED_CLAY" 31 times.(ÅÒë¿8Äóæ›Ú-
+osquid:S1192F"LDefine a constant instead of duplicating this literal "WOODEN_SLAB" 6 times.(Ü»Öüûÿÿÿÿ8Äóæ›Ú-
+lsquid:S1192Ù"MDefine a constant instead of duplicating this literal "MONSTER_EGGS" 6 times.(Õäó8Äóæ›Ú-
+fsquid:S1192ÿ"GDefine a constant instead of duplicating this literal "SKULL" 12 times.(ÙÌ–™8Äóæ›Ú-
+hsquid:S1192£
+"IDefine a constant instead of duplicating this literal "VERSION_" 4 times.(Ú‚Û÷8Äóæ›Ú-
+jsquid:S1192Ú"LDefine a constant instead of duplicating this literal "FLOWER_POT" 21 times.(Æ‚©S8Äóæ›Ú-
+Šsquid:S1192ä"fDefine a constant instead of duplicating this literal "Material name cannot be null or empty" 9 times.(ø†áÈùÿÿÿÿ8Äóæ›Ú-
+esquid:S1192Ô"FDefine a constant instead of duplicating this literal "ANVIL" 3 times.(ù¾8Äóæ›Ú-
+xsquid:S1192€"TDefine a constant instead of duplicating this literal "STAINED_GLASS_PANE" 16 times.(çÅÁ¡ùÿÿÿÿ8Äóæ›Ú-
+Csquid:S1640–"Convert this Map to an EnumMap.(ÎÚ‘¦úÿÿÿÿ8Äóæ›Ú-
+msquid:S1192I"JDefine a constant instead of duplicating this literal "SIGN_POST" 6 times.(â×·Àıÿÿÿÿ8Äóæ›Ú-
+jsquid:S3027Ş
+"FPut single-quotes around '-' to use the faster "indexOf(char)" method.(ãúúˆÿÿÿÿÿ8Äóæ›Ú-
+osquid:S1192<"LDefine a constant instead of duplicating this literal "WOOD_BUTTON" 6 times.(æ°óßÿÿÿÿÿ8Äóæ›Ú-
+hsquid:S2583Ô	"DChange this condition so that it does not always evaluate to "false"(»³œ›üÿÿÿÿ8Äóæ›Ú-
+jsquid:S1192l"GDefine a constant instead of duplicating this literal "LEAVES" 5 times.(á¢³ûÿÿÿÿ8Äóæ›Ú-
+tsquid:S1192F"QDefine a constant instead of duplicating this literal "WOOD_DOUBLE_STEP" 6 times.(Ü»Öüûÿÿÿÿ8Äóæ›Ú-
+jsquid:S3027Š	"FPut single-quotes around ':' to use the faster "indexOf(char)" method.(¶ ¬€øÿÿÿÿ8Äóæ›Ú-
+lsquid:S1192Ø"MDefine a constant instead of duplicating this literal "SMOOTH_BRICK" 7 times.(µ†×·8Äóæ›Ú-
+[squid:S2589ò"7Remove this expression which always evaluates to "true"(‚Óò˜ûÿÿÿÿ8Äóæ›Ú-
+fsquid:S1192w"HDefine a constant instead of duplicating this literal "BANNER" 17 times.(ÑáÔ²8Äóæ›Ú-
+isquid:S1192}"KDefine a constant instead of duplicating this literal "HARD_CLAY" 30 times.(ÅÒë¿8Äóæ›Ú-
+msquid:S1192"ODefine a constant instead of duplicating this literal "STAINED_GLASS" 16 times.(ô…í‹8Äóæ›Ú-
+nsquid:S3027á
+"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(î¡úáÿÿÿÿÿ8Äóæ›Ú-
+hsquid:S1192H"JDefine a constant instead of duplicating this literal "TRAP_DOOR" 6 times.(ÅŒş8Äóæ›Ú-
+nsquid:S1192C"KDefine a constant instead of duplicating this literal "WOOD_PLATE" 6 times.(ô£İşÿÿÿÿ8Äóæ›Ú-
+hsquid:S1192é"IDefine a constant instead of duplicating this literal "RAW_FISH" 4 times.(æ”ƒ8Äóæ›Ú-
+Asquid:S2386‘"Make this member "protected".(„‰ö€üÿÿÿÿ8Äóæ›Ú-
+bsquid:CallToDeprecatedMethodš"-Remove this use of "getId"; it is deprecated.(¨§÷ÿøÿÿÿÿ8Äóæ›Ú-
+jsquid:S1192è"LDefine a constant instead of duplicating this literal "PISTON_BASE" 3 times.(İñùt8Äóæ›Ú-
+lsquid:S1192D"IDefine a constant instead of duplicating this literal "SAPLING" 12 times.(àÃ¯Šûÿÿÿÿ8Äóæ›Ú-
+osquid:S1192w"QDefine a constant instead of duplicating this literal "STANDING_BANNER" 17 times.(ÑáÔ²8Äóæ›Ú-
+ksquid:S1192“"LDefine a constant instead of duplicating this literal "THIN_GLASS" 13 times.(ôÿíÆ8Äóæ›Ú-
+esquid:S1192­"FDefine a constant instead of duplicating this literal "GRASS" 3 times.(ãæ¼8Äóæ›Ú-
+lsquid:S1192‚"MDefine a constant instead of duplicating this literal "WALL_BANNER" 16 times.(â¾ƒ8Äóæ›Ú-
+jsquid:S1192„"LDefine a constant instead of duplicating this literal "STONE_SLAB2" 3 times.(şÅ¿V8Äóæ›Ú-
+msquid:S1192M"JDefine a constant instead of duplicating this literal "RED_ROSE" 18 times.(¹²Ëûÿÿÿÿ8Äóæ›Ú-
+jsquid:S1192^"MDefine a constant instead of duplicating this literal "MONSTER_EGG" 52 times.(Ï­v8Äóæ›Ú-
+–squid:S1319–"rThe type of the "DUPLICATED" object should be an interface such as "Map" rather than the implementation "HashMap".(ÎÚ‘¦úÿÿÿÿ8Äóæ›Ú-
+hsquid:S3358Ô	"DExtract this nested ternary operation into an independent statement.(»³œ›üÿÿÿÿ8Äóæ›Ú-
+ksquid:S1192y"HDefine a constant instead of duplicating this literal "CARPET" 16 times.(”Ï€Ëøÿÿÿÿ8Äóæ›Ú-
+ksquid:S1192Ë"LDefine a constant instead of duplicating this literal "DOUBLE_STEP" 3 times.(ñîÁ8Äóæ›Ú-
+isquid:S1192A"FDefine a constant instead of duplicating this literal "LOG_2" 6 times.(Â”‹ïşÿÿÿÿ8Äóæ›Ú-
+esquid:S3027‰	"FPut single-quotes around ':' to use the faster "indexOf(char)" method.(ã¾¸”8Äóæ›Ú-
+msquid:S1192|"JDefine a constant instead of duplicating this literal "INK_SACK" 19 times.(¸‰Ç±øÿÿÿÿ8Äóæ›Ú-
+qsquid:S1192ê"MDefine a constant instead of duplicating this literal "WATER_BUCKET" 4 times.(˜º„ıÿÿÿÿ8Äóæ›Ú-
+Asquid:S2386¡"Make this member "protected".(İ°Å²üÿÿÿÿ8Äóæ›Ú-
+Psquid:S3599–",Use another way to initialize this instance.(ÎÚ‘¦úÿÿÿÿ8Äóæ›Ú-
+ksquid:S1192ê"GDefine a constant instead of duplicating this literal "BUCKET" 4 times.(˜º„ıÿÿÿÿ8Äóæ›Ú-
+usquid:S1845¡"QRename field "VALUES" to prevent any misunderstanding/clash with method "values".(İ°Å²üÿÿÿÿ8Äóæ›Ú-
+gsquid:S1192Î"HDefine a constant instead of duplicating this literal "COMMAND" 3 times.(¥ÇÏ±8Äóæ›Ú-
+isquid:S1192x"KDefine a constant instead of duplicating this literal "BED_BLOCK" 16 times.(Ò®”Í8Äóæ›Ú-
+Qsquid:S1135´	"2Complete the task associated to this TODO comment.(±Ñ«™8Äóæ›Ú-
+ksquid:S1192ÿ"LDefine a constant instead of duplicating this literal "SKULL_ITEM" 12 times.(ÙÌ–™8Äóæ›Ú-

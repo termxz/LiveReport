@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LiveReport:jar">
+    <output-path>$PROJECT_DIR$/../../../Servers/mcss0/servers/LiveTober/plugins</output-path>
+    <root id="archive" name="LiveReport.jar">
+      <element id="module-output" name="LiveReport" />
+    </root>
+  </artifact>
+</component>

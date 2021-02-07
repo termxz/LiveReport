@@ -1,0 +1,24 @@
+
+Fsquid:S3010v"(Remove this assignment of "logSentData".(™æŸº8æŸç¨â-
+Msquid:S00108o")Either remove or fill this block of code.(õ÷£ğúÿÿÿÿ8æŸç¨â-
+jsquid:S2184¤"FCast one of the operands of this multiplication operation to a "long".(ÎÛ»ãøÿÿÿÿ8æŸç¨â-
+Usquid:S3010w"2Remove this assignment of "logResponseStatusText".(‚„·åùÿÿÿÿ8æŸç¨â-
+Nsquid:S00108")Either remove or fill this block of code.(èÜåûÿÿÿÿ8æŸç¨â-
+Nsquid:S00108’")Either remove or fill this block of code.(ıŞ•ûùÿÿÿÿ8æŸç¨â-
+Ysquid:S1141ù"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8æŸç¨â-
+Ysquid:S1141ş"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8æŸç¨â-
+{squid:S2629·"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(åµ¸±8æŸç¨â-
+Esquid:S1168å"&Return an empty array instead of null.(¥¹ï8æŸç¨â-
+Qsquid:S3010t".Remove this assignment of "logFailedRequests".(üüêÃøÿÿÿÿ8æŸç¨â-
+Nsquid:S00108€")Either remove or fill this block of code.(ıŞ•ûùÿÿÿÿ8æŸç¨â-
+isquid:S1192Y"KDefine a constant instead of duplicating this literal "serverUuid" 3 times.(×‡¶–8æŸç¨â-
+:squid:S3626Œ"Remove this redundant jump.(£õ…ğ8æŸç¨â-
+Esquid:S3010s"'Remove this assignment of "serverUUID".(““ç®8æŸç¨â-
+ksquid:S2259Ã"LA "NullPointerException" could be thrown; "compressedData" is nullable here.(ö»Øê8æŸç¨â-
+Ksquid:S1612¢",Replace this lambda with a method reference.(ÀÜ¹ñ8æŸç¨â-
+isquid:HiddenFieldCheckú":Rename "plugin" which hides the field declared at line 70.(äøÔÚûÿÿÿÿ8æŸç¨â-
+{squid:S2629Ø"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(î“Ï8æŸç¨â-
+fsquid:S00112¯"FDefine and throw a dedicated exception instead of using a generic one.(ñ·õ‰8æŸç¨â-
+Gsquid:S1604˜"(Make this anonymous inner class a lambda(ÉãÃ®8æŸç¨â-
+qsquid:S3776ï"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(î¹“Æ8æŸç¨â-
+jsquid:S2184¤"FCast one of the operands of this multiplication operation to a "long".(ÎÛ»ãøÿÿÿÿ8æŸç¨â-
