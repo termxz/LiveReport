@@ -12,7 +12,6 @@ import org.bukkit.entity.Player;
 
 public class ObserverCommand implements CommandExecutor {
 
-
     public ObserverCommand() {
         Bukkit.getPluginCommand("rt").setExecutor(this);
     }

@@ -37,9 +37,14 @@ public class ReportCommand implements CommandExecutor {
                 player.sendMessage(new MessageBuilder(Message.CMessages.NO_PERMISSION, false).get());
                 return true;
             }
-
-            if (args.length == 0) { player.sendMessage(new MessageBuilder(Message.CMessages.USAGE_REPORT_MESSAGE, true).get());return true; }
-            if (args[0].equalsIgnoreCase(player.getName())) { player.sendMessage(new MessageBuilder(Message.CMessages.REPORT_ERROR_SELF, true).get()); return true; }
+            if (args.length == 0) {
+                player.sendMessage(new MessageBuilder(Message.CMessages.USAGE_REPORT_MESSAGE, true).get());
+                return true;
+            }
+            if (args[0].equalsIgnoreCase(player.getName())) {
+                player.sendMessage(new MessageBuilder(Message.CMessages.REPORT_ERROR_SELF, true).get());
+                return true;
+            }
             if(coolPlayers.containsKey(player.getUniqueId()) && (System.currentTimeMillis() <= coolPlayers.get(player.getUniqueId()))) {
                 final String time = TimeUnit.toString(Math.round((coolPlayers.get(player.getUniqueId()) - System.currentTimeMillis()) * 0.001));
                 player.sendMessage(new MessageBuilder(Message.CMessages.REPORT_ERROR_COOLDOWN, true).addPlaceHolder("%time%", time).get());
@@ -53,6 +58,14 @@ public class ReportCommand implements CommandExecutor {
                         !LiveReport.getPlugin().getDB().profileExists(offlinePlayer.getUniqueId())) {
                     player.sendMessage(new MessageBuilder(Message.CMessages.REPORT_ERROR_INVALID, true).get());
                     return;
+                }
+
+                if(offlinePlayer.isOnline()) {
+                    Player p = Bukkit.getPlayer(offlinePlayer.getUniqueId());
+                    if(p.hasPermission(LiveReport.getPlugin().getPermissions().getAdmin())) {
+                        player.sendMessage(new MessageBuilder(Message.CMessages.REPORT_ERROR_STAFF, true).get());
+                        return;
+                    }
                 }
 
                 Bukkit.getScheduler().runTask(LiveReport.getPlugin(), () -> new SubmissionUI().create(player, offlinePlayer));

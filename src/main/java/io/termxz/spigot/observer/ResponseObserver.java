@@ -5,7 +5,7 @@ import io.termxz.spigot.api.events.ReportSubmittedEvent;
 import io.termxz.spigot.data.report.Report;
 import io.termxz.spigot.data.report.ReportStatus;
 import io.termxz.spigot.other.BungeeHandle;
-import io.termxz.spigot.other.DiscordHandle;
+import io.termxz.spigot.discord.DiscordHandle;
 import io.termxz.spigot.utils.message.Message;
 import io.termxz.spigot.utils.message.MessageBuilder;
 import org.bukkit.Bukkit;
